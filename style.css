@@ -3,7 +3,7 @@ body {
     margin: 0;
     border-top: 3px solid #47c520;
     font-family: Trebuchet MS, sans-serif;
-    z-index: 1;
+    z-index: 5;
 }
 
 #telo {
@@ -13,8 +13,8 @@ body {
 }
 
 #header {
-    /*border: 1px solid blue;*/
-    padding: 10px;
+    /*border: 1px solid blue;
+    padding: 10px;*/
 }
 img {
     vertical-align: bottom;
@@ -28,17 +28,18 @@ img {
     float: right;
     text-align: right;
     /*border: 1px dotted green;*/
-    width: 75%;
+    width: 73%;
 }
 #headerLeft > div {
     /*border: 1px solid firebrick;*/
 }
 #ava {
-    border: 2px solid #aeeb83;
+    /*border: 2px solid #aeeb83;*/
     -webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;
     float: left;
-    width: 24%;
+    width: 26%;
     padding: 1px;
+    z-index: 1;
 }
 
 .clear {
@@ -47,6 +48,7 @@ img {
 
 #telephone {
     font-size: 16pt;
+    margin-top: 30px;
 }
 
 #name {
@@ -68,10 +70,10 @@ img {
     width: 100%;
     height: 29px;
     position: absolute;
-    margin-top: 315px;
-    z-index: 0;
-    background: url(img/plashka.jpg) repeat-x;
-    /*background-color: #aeeb83;*/
+    margin-top: 328px;
+    z-index: 2;
+    /*background: url(img/plashka.jpg) repeat-x;*/
+    background-color: #aeeb83;*
     -webkit-box-shadow: 0 3px 7px 0 rgba(50, 50, 50, 0.2);
     -moz-box-shadow:    0 3px 7px 0 rgba(50, 50, 50, 0.2);
     box-shadow:         0 3px 7px 0 rgba(50, 50, 50, 0.2);
@@ -84,14 +86,9 @@ img {
     margin: 0 auto;
 }
 
-#menu>div:empty {
-    width: 25%;
-    float: left;
-    height: 10px;
-}
-#menu>div:not(:empty) {
+#menu>div {
     height: 100%;
-    width: 74%;
+    width: 100%;
     float: left;
 }
 #menu > div a {
@@ -102,16 +99,18 @@ img {
     padding:4px 10px 0 10px;
     text-decoration: none;
     font-weight: bold;
-    /*border-right: 1px solid #bdff8e;
-    border-left: 1px solid #8ec06b;*/
+    border-right: 1px solid #bdff8e;
+    border-left: 1px solid #8ec06b;
     color: #253a17;
 }
+#menu > div a:first-of-type {border-left: none}
+#menu > div a:last-of-type {border-right: none}
 #menu>div a:hover {
-    background-color: #aeeb83;
-    text-decoration: underline;
+    background-color: #47c520;
+    color: white;
 }
 /*Выравниваем пункты меню по центру при помощи обёртки*/
-#menu>div:not(:empty) > div {
-    width: 655px;
+#menu > div > div {
     margin: auto;
+    width: 875px;
 }
