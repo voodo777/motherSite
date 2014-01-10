@@ -112,6 +112,6 @@ img {
 }
 /*Выравниваем пункты меню по центру при помощи обёртки*/
 #menu>div:not(:empty) > div {
-    width: 655px;
+    width: 650px;
     margin: auto;
 }
