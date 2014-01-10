@@ -112,5 +112,5 @@ img {
 /*Выравниваем пункты меню по центру при помощи обёртки*/
 #menu > div > div {
     margin: auto;
-    width: 875px;
+    width: 876px;
 }
