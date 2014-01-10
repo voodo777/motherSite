@@ -20,6 +20,7 @@ img {
     width: 300px;
 }
 .clear {
+    clear: both;
     float: none;
 }
 #headerLeft > div {
