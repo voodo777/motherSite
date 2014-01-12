@@ -74,7 +74,7 @@ img {
     z-index: 2;
     /*background: url(img/plashka.jpg) repeat-x;*/
     background-color: #aeeb83;*
-    -webkit-box-shadow: 0 3px 7px 0 rgba(50, 50, 50, 0.2);
+-webkit-box-shadow: 0 3px 7px 0 rgba(50, 50, 50, 0.2);
     -moz-box-shadow:    0 3px 7px 0 rgba(50, 50, 50, 0.2);
     box-shadow:         0 3px 7px 0 rgba(50, 50, 50, 0.2);
 }
