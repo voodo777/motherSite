@@ -136,6 +136,9 @@ img {
     -moz-box-shadow:    0 0 5px 0 rgba(50, 50, 50, 0.5);
     box-shadow:         0 0 5px 0 rgba(50, 50, 50, 0.5);
 }
+.infoblock:hover {
+    background: #f6f6f6;
+}
 
 #podvalBorder {
     /*border: 3px dotted #47c520;*/
