@@ -4,6 +4,7 @@ body {
     border-top: 3px solid #47c520;
     font-family: Trebuchet MS, sans-serif;
     z-index: 5;
+    position: static;
 }
 
 #telo {
@@ -68,10 +69,10 @@ img {
     width: 100%;
     height: 35px;
     position: absolute;
-    margin-top: 275px;
+    top: 278px;
     z-index: 2;
     /*background: url(img/plashka.jpg) repeat-x;*/
-    background-color: #aeeb83;*
+    background-color: #aeeb83;
     -webkit-box-shadow: 0 3px 7px 0 rgba(50, 50, 50, 0.2);
     -moz-box-shadow:    0 3px 7px 0 rgba(50, 50, 50, 0.2);
     box-shadow:         0 3px 7px 0 rgba(50, 50, 50, 0.2);
@@ -114,14 +115,44 @@ img {
 }
 
 #main {
-    padding: 0 10px;
-    border: 1px solid black;
     float: left;
     width: 65%;
 }
+#main>p:first-of-type {
+    margin-top: 0;
+}
 
 #rightBlocks {
-    border: 1px solid black;
     float: right;
     width: 31%;
+}
+
+.infoblock {
+    border: 1px solid gray;
+    margin-bottom: 20px;
+    padding: 5px 10px;
+    -webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;
+    -webkit-box-shadow: 0 0 5px 0 rgba(50, 50, 50, 0.5);
+    -moz-box-shadow:    0 0 5px 0 rgba(50, 50, 50, 0.5);
+    box-shadow:         0 0 5px 0 rgba(50, 50, 50, 0.5);
+}
+
+#podvalBorder {
+    /*border: 3px dotted #47c520;*/
+    width: 100%;
+    height: 15px;
+    z-index: 2;
+    /*background: url(img/plashka.jpg) repeat-x;*/
+    background-color: #aeeb83;
+    -webkit-box-shadow: 0 -3px 5px 0 rgba(50, 50, 50, 0.2);
+    -moz-box-shadow:    0 -3px 5px 0 rgba(50, 50, 50, 0.2);
+    box-shadow:         0 -3px 5px 0 rgba(50, 50, 50, 0.2);
+}
+
+#podval {
+    width: 880px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 10pt;
+    padding: 10px;
 }
