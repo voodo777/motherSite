@@ -14,6 +14,7 @@ body {
     /*border: 1px solid blue;
     padding: 10px;*/
     margin-bottom: -1px;
+    background-color: #aeeb83;
 }
 img {
     vertical-align: bottom;
@@ -40,7 +41,7 @@ img {
     width: 25%;
     padding: 1px;
     z-index: 1;
-    margin-left: 10px;
+    margin: 10px 0 10px 10px;
 }
 
 .clear {
@@ -69,7 +70,7 @@ img {
     height: 35px;
     z-index: 2;
     /*background: url(img/plashka.jpg) repeat-x;*/
-    background-color: #aeeb83;
+    background-color: #8cc068;
     -webkit-box-shadow: 0 3px 7px 0 rgba(50, 50, 50, 0.2);
     -moz-box-shadow:    0 3px 7px 0 rgba(50, 50, 50, 0.2);
     box-shadow:         0 3px 7px 0 rgba(50, 50, 50, 0.2);
@@ -103,8 +104,8 @@ img {
 #menu > div a:first-of-type {border-left: none}
 #menu > div a:last-of-type {border-right: none}
 #menu>div a:hover {
-    background-color: #47c520;
-    color: white;
+    background-color: #aeeb83;
+    color: black;
 }
 /*Выравниваем пункты меню по центру при помощи обёртки*/
 #menu > div > div {
