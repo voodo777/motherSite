@@ -71,9 +71,9 @@ img {
     z-index: 2;
     /*background: url(img/plashka.jpg) repeat-x;*/
     background-color: #8cc068;
-    -webkit-box-shadow: 0 3px 7px 0 rgba(50, 50, 50, 0.2);
+    /*-webkit-box-shadow: 0 3px 7px 0 rgba(50, 50, 50, 0.2);
     -moz-box-shadow:    0 3px 7px 0 rgba(50, 50, 50, 0.2);
-    box-shadow:         0 3px 7px 0 rgba(50, 50, 50, 0.2);
+    box-shadow:         0 3px 7px 0 rgba(50, 50, 50, 0.2);*/
     margin-bottom: 25px;
 }
 
@@ -133,9 +133,9 @@ img {
     margin-bottom: 20px;
     padding: 5px 10px;
     -webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;
-    -webkit-box-shadow: 0 0 5px 0 rgba(50, 50, 50, 0.5);
+    /*-webkit-box-shadow: 0 0 5px 0 rgba(50, 50, 50, 0.5);
     -moz-box-shadow:    0 0 5px 0 rgba(50, 50, 50, 0.5);
-    box-shadow:         0 0 5px 0 rgba(50, 50, 50, 0.5);
+    box-shadow:         0 0 5px 0 rgba(50, 50, 50, 0.5);*/
 }
 .infoblock:hover {
     background: #f6f6f6;
@@ -148,9 +148,9 @@ img {
     z-index: 2;
     /*background: url(img/plashka.jpg) repeat-x;*/
     background-color: #aeeb83;
-    -webkit-box-shadow: 0 -3px 5px 0 rgba(50, 50, 50, 0.2);
+    /*-webkit-box-shadow: 0 -3px 5px 0 rgba(50, 50, 50, 0.2);
     -moz-box-shadow:    0 -3px 5px 0 rgba(50, 50, 50, 0.2);
-    box-shadow:         0 -3px 5px 0 rgba(50, 50, 50, 0.2);
+    box-shadow:         0 -3px 5px 0 rgba(50, 50, 50, 0.2);*/
 }
 
 #podval {
@@ -159,16 +159,16 @@ img {
     font-size: 10pt;
     padding: 10px;
     background-color: #aeeb83;
-    -webkit-box-shadow: 0 -3px 5px 0 rgba(50, 50, 50, 0.2);
+    /*-webkit-box-shadow: 0 -3px 5px 0 rgba(50, 50, 50, 0.2);
     -moz-box-shadow:    0 -3px 5px 0 rgba(50, 50, 50, 0.2);
-    box-shadow:         0 -3px 5px 0 rgba(50, 50, 50, 0.2);
+    box-shadow:         0 -3px 5px 0 rgba(50, 50, 50, 0.2);*/
 }
 #wrapper {
     width: 920px;
     margin: 10px auto;
-    -webkit-box-shadow: 0 0 5px 0 rgba(50, 50, 50, 1);
+    /*-webkit-box-shadow: 0 0 5px 0 rgba(50, 50, 50, 1);
     -moz-box-shadow:    0 0 5px 0 rgba(50, 50, 50, 1);
-    box-shadow:         0 0 5px 0 rgba(50, 50, 50, 1);
+    box-shadow:         0 0 5px 0 rgba(50, 50, 50, 1);*/
     -webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;
     background-color: white;
 }
