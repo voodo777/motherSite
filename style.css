@@ -129,7 +129,7 @@ img {
 }
 
 .infoblock {
-    border: 1px solid gray;
+    border: 1px solid lightgray;
     margin-bottom: 20px;
     padding: 5px 10px;
     -webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;
@@ -164,6 +164,7 @@ img {
     box-shadow:         0 -3px 5px 0 rgba(50, 50, 50, 0.2);*/
 }
 #wrapper {
+    border: 1px solid lightgray;
     width: 920px;
     margin: 10px auto;
     /*-webkit-box-shadow: 0 0 5px 0 rgba(50, 50, 50, 1);
