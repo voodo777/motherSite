@@ -4,55 +4,48 @@ body {
     font-family: Trebuchet MS, sans-serif;
     z-index: 5;
     position: static;
-    background: url("img/background_my.jpg") #e4f5d8 center top no-repeat;
+    background: url("img/background_my.jpg") #fdffe3 center top no-repeat;
     font-size: 12pt;
 }
-
-
-
 #header {
-    /*border: 1px solid blue;
-    padding: 10px;*/
-    margin-bottom: -1px;
     background: url("img/back_header.jpg") #aeeb83 center center no-repeat;
-    height: 252px;
+    height: 232px;
+    font-size: 16pt;
+    text-align: right;
+    padding: 10px;
 }
 img {
     vertical-align: bottom;
     max-width: 100%;
     position: relative;
 }
-.clear {
-    float: none;
-}
-#headerLeft {
-    float: right;
-    text-align: right;
-    /*border: 1px dotted green;*/
-    width: 72%;
-    margin-right: 10px;
+.clear {clear: both;}
+
+#header>div {
+    display: inline-block;
+    margin-left: 40px;
 }
 
-
-.clear {
-    clear: both;
+#header>div>img {
+    height: 18px;
+    margin-bottom: 4px;
+}
+#header>div>a {
+    color: black;
+    text-decoration: none;
 }
 
-#telephone {
-    font-size: 16pt;
-    margin-top: 10px;
-}
-
-#name {
+#header>div:last-of-type {
+    width: 700px;
     text-align: center;
     font-size: 32pt;
     font-weight: bold;
-    margin-top: 50px;
+    margin-top: 55px;
 }
-#sign {
-    text-align: center;
-    font-size: 20pt;
-}
+#header>div:last-of-type>p {margin: 0;}
+#header>div:last-of-type>p:last-of-type{font-size: 20pt;}
+
+
 
 #plashka {
     /*border: 3px dotted #47c520;*/
