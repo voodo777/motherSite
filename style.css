@@ -4,7 +4,7 @@ body {
     font-family: Trebuchet MS, sans-serif;
     z-index: 5;
     position: static;
-    background: url("img/background_my.jpg") #ceeeb6 center top no-repeat;
+    background: url("img/background_my.jpg") #e4f5d8 center top no-repeat;
     font-size: 12pt;
 }
 
@@ -14,7 +14,8 @@ body {
     /*border: 1px solid blue;
     padding: 10px;*/
     margin-bottom: -1px;
-    background-color: #aeeb83;
+    background: url("img/back_header.jpg") #aeeb83 center center no-repeat;
+    height: 252px;
 }
 img {
     vertical-align: bottom;
