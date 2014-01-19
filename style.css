@@ -32,18 +32,7 @@ img {
     width: 72%;
     margin-right: 10px;
 }
-#headerLeft > div {
-    /*border: 1px solid firebrick;*/
-}
-#ava {
-    /*border: 2px solid #aeeb83;*/
-    -webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;
-    float: left;
-    width: 25%;
-    padding: 1px;
-    z-index: 1;
-    margin: 10px 0 10px 10px;
-}
+
 
 .clear {
     clear: both;
@@ -71,7 +60,7 @@ img {
     height: 35px;
     z-index: 2;
     /*background: url(img/plashka.jpg) repeat-x;*/
-    background-color: #8cc068;
+    background-color: #3d3d3d;
     /*-webkit-box-shadow: 0 3px 7px 0 rgba(50, 50, 50, 0.2);
     -moz-box-shadow:    0 3px 7px 0 rgba(50, 50, 50, 0.2);
     box-shadow:         0 3px 7px 0 rgba(50, 50, 50, 0.2);*/
@@ -98,14 +87,14 @@ img {
     padding:7px 10px 0 10px;
     text-decoration: none;
     font-weight: bold;
-    border-right: 1px solid #bdff8e;
-    border-left: 1px solid #8ec06b;
-    color: #253a17;
+    border-right: 1px solid #919191;
+    border-left: 1px solid black;
+    color: white;
 }
 #menu > div a:first-of-type {border-left: none}
 #menu > div a:last-of-type {border-right: none}
 #menu>div a:hover {
-    background-color: #aeeb83;
+    background-color: #badc46;
     color: black;
 }
 /*Выравниваем пункты меню по центру при помощи обёртки*/
@@ -159,7 +148,8 @@ img {
     text-align: center;
     font-size: 10pt;
     padding: 10px;
-    background-color: #aeeb83;
+    background-color: #3d3d3d;
+    color: white;
     /*-webkit-box-shadow: 0 -3px 5px 0 rgba(50, 50, 50, 0.2);
     -moz-box-shadow:    0 -3px 5px 0 rgba(50, 50, 50, 0.2);
     box-shadow:         0 -3px 5px 0 rgba(50, 50, 50, 0.2);*/
