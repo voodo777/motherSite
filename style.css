@@ -4,7 +4,7 @@ body {
     font-family: Trebuchet MS, sans-serif;
     z-index: 5;
     position: static;
-    background: url("img/background_my.jpg") #fdffe3 center top no-repeat;
+    background: url("img/background_my.jpg") #fdfcda center top no-repeat;
     font-size: 12pt;
 }
 #header {
