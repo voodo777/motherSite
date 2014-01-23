@@ -196,7 +196,7 @@ h3 {
 
 
 /*Подвал*/
-body>div>div:last-of-type {
+#cellar {
     margin: 0 auto;
     text-align: center;
     font-size: 10pt;
