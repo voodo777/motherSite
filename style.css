@@ -7,6 +7,18 @@ body {
     background: url("img/background_my.jpg") #e5f5d7 center top no-repeat;
     font-size: 12pt;
 }
+body>div {
+    width: 920px;
+    margin: 10px auto;
+    -webkit-box-shadow: 0 0 7px 0 rgba(50, 50, 50, 0.5);
+    -moz-box-shadow:    0 0 7px 0 rgba(50, 50, 50, 0.5);
+    box-shadow:         0 0 7px 0 rgba(50, 50, 50, 0.5);
+    -webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;
+    background-color: white;
+}
+.clear {clear: both;}
+
+/*Шапка*/
 #header {
     background: url("img/back_header.jpg") #aeeb83 center center no-repeat;
     height: 232px;
@@ -14,18 +26,15 @@ body {
     text-align: right;
     padding: 10px;
 }
-img {
+#header img {
     vertical-align: bottom;
     max-width: 100%;
     position: relative;
 }
-.clear {clear: both;}
-
 #header>div {
     display: inline-block;
     margin-left: 40px;
 }
-
 #header>div>img {
     height: 18px;
     margin-bottom: 4px;
@@ -34,7 +43,6 @@ img {
     color: black;
     text-decoration: none;
 }
-
 #header>div:last-of-type {
     width: 700px;
     text-align: center;
@@ -45,28 +53,26 @@ img {
 #header>div:last-of-type>p {margin: 0;}
 #header>div:last-of-type>p:last-of-type{font-size: 20pt;}
 
-nav {
-    margin: 10px 0;
 
-}
-#menu-wrapper {
+
+
+/*Меню*/
+body>div>div:nth-of-type(2) {
     text-align: center;
     margin-bottom: 20px;
     background: #3d3d3d;
     border: 1px solid #3d3d3d;
 }
-
+nav {margin: 10px 0;}
 nav ul.menu {
     list-style: none;
     display: inline-table;
     padding: 0;
     margin: 0;
-
 }
 nav>ul>li {
     display: inline-block;
     position: relative;
-
 }
 nav>ul>li>a {
     padding: 10px 20px;
@@ -83,7 +89,6 @@ nav>ul>li>a:hover {
     background-color: #5b5a5a;
     border-bottom: 1px solid #7b7b7b;
 }
-
 nav ul ul {
     display: none;
     list-style: none;
@@ -91,10 +96,8 @@ nav ul ul {
     top: 33px;
     padding: 0;
 }
-
 nav ul ul li {
     margin-left: 20px;
-
 }
 nav ul ul li>a {
     text-align: left;
@@ -110,19 +113,12 @@ nav ul ul li>a {
     -moz-box-shadow:    4px 4px 5px 0 rgba(50, 50, 50, 0.75);
     box-shadow:         4px 4px 5px 0 rgba(50, 50, 50, 0.75);
 }
-
 nav ul ul li:last-of-type>a {
     border-bottom: none;
     -webkit-border-bottom-right-radius:3px;-webkit-border-bottom-left-radius:3px;-moz-border-radius-bottomright:3px;-moz-border-radius-bottomleft:3px;border-bottom-right-radius:3px;border-bottom-left-radius:3px;
 }
-nav ul ul li>a:hover {
-    background-color: #5b5a5a;
-}
-
-nav ul li:hover > ul{
-    display: block;
-
-}
+nav ul ul li>a:hover {background-color: #5b5a5a;}
+nav ul li:hover > ul{display: block;}
 
 
 
@@ -166,24 +162,45 @@ nav ul li:hover > ul{
     box-shadow:         0 -3px 5px 0 rgba(50, 50, 50, 0.2);*/
 }
 
-#podval {
+
+
+
+
+
+
+/*Область основного контента*/
+h2 {
+    color: #38761d;
+    font-size: 16pt;
+    font-weight: bolder;
+}
+h2:first-of-type {text-align: center;margin: 0;}
+h3 {
+    font-size: 14pt;
+    text-align: center;
+}
+#main>ul:first-of-type {
+    list-style: none;
+    padding-left: 0;
+}
+#main>ul>li>ul  {
+    list-style: none;
+    padding-left: 0;
+}
+#main>ul>li>ul span {
+    color: #38761d;
+    text-decoration: underline;
+    font-weight: bold;
+}
+#main>ul>li>ul>li>ul {list-style: none;}
+
+
+/*Подвал*/
+body>div>div:last-of-type {
     margin: 0 auto;
     text-align: center;
     font-size: 10pt;
     padding: 10px;
     background-color: #3d3d3d;
     color: white;
-    /*-webkit-box-shadow: 0 -3px 5px 0 rgba(50, 50, 50, 0.2);
-    -moz-box-shadow:    0 -3px 5px 0 rgba(50, 50, 50, 0.2);
-    box-shadow:         0 -3px 5px 0 rgba(50, 50, 50, 0.2);*/
-}
-#wrapper {
-    /*border: 1px solid lightgray;*/
-    width: 920px;
-    margin: 10px auto;
-    -webkit-box-shadow: 0 0 7px 0 rgba(50, 50, 50, 0.5);
-    -moz-box-shadow:    0 0 7px 0 rgba(50, 50, 50, 0.5);
-    box-shadow:         0 0 7px 0 rgba(50, 50, 50, 0.5);
-    -webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;
-    background-color: white;
 }
