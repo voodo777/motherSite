@@ -19,56 +19,56 @@ body>div {
 .clear {clear: both;}
 
 /*Шапка*/
-#header {
+header {
     background: url("img/back_header.jpg") #aeeb83 center center no-repeat;
     height: 232px;
     font-size: 16pt;
     text-align: right;
     padding: 10px;
 }
-#header img {
+header img {
     vertical-align: bottom;
     max-width: 100%;
     position: relative;
 }
-#header>div {
+header>div {
     display: inline-block;
     margin-left: 40px;
 }
-#header>div>img {
+header>div>img {
     height: 18px;
     margin-bottom: 4px;
 }
-#header>div>a {
+header>div>a {
     color: black;
     text-decoration: none;
 }
-#header>img:last-of-type {
+#reso {
     width: 300px;
     float: right;
     margin-top: 50px;
 }
-#header>div:last-of-type {
+#headtext {
     width: 400px;
     text-align: center;
     font-size: 21pt;
     font-weight: bold;
     margin-top: 55px;
 }
-#header>div:last-of-type>p {margin: 0;}
-#header>div:last-of-type>p:last-of-type{font-size: 20pt;}
+#headtext>p {margin: 0;}
+#name{font-size: 20pt;}
 
 
 
 
 /*Меню*/
-body>div>div:nth-of-type(2) {
+nav {
     text-align: center;
     margin-bottom: 20px;
     background: #3d3d3d;
     border: 1px solid #3d3d3d;
+    padding: 10px 0;
 }
-nav {margin: 10px 0;}
 nav ul.menu {
     list-style: none;
     display: inline-table;
@@ -88,8 +88,8 @@ nav>ul>li>a {
     border-left: 1px solid #7b7b7b;
     border-right: 1px solid #191919;
     }
-nav ul.menu li:first-of-type a {border-left: none}
-nav ul.menu li:last-of-type a {border-right: none}
+#firstli {border-left: none;}
+#lastli {border-right: none}
 nav>ul>li>a:hover {
     background-color: #5b5a5a;
     border-bottom: 1px solid #7b7b7b;
@@ -160,18 +160,6 @@ nav ul li:hover > ul{display: block;}
 #rightBlocks>div:hover {background: #036734;}
 #rightBlocks>div a:hover{color: white;}
 
-#podvalBorder {
-    /*border: 3px dotted #47c520;*/
-    width: 100%;
-    height: 15px;
-    z-index: 2;
-    /*background: url(img/plashka.jpg) repeat-x;*/
-    background-color: #aeeb83;
-    /*-webkit-box-shadow: 0 -3px 5px 0 rgba(50, 50, 50, 0.2);
-    -moz-box-shadow:    0 -3px 5px 0 rgba(50, 50, 50, 0.2);
-    box-shadow:         0 -3px 5px 0 rgba(50, 50, 50, 0.2);*/
-}
-
 
 
 
@@ -184,12 +172,12 @@ h2 {
     font-size: 16pt;
     font-weight: bolder;
 }
-h2:first-of-type {text-align: center;margin: 0;}
+#firsth2 {text-align: center;margin: 0;}
 h3 {
     font-size: 14pt;
     text-align: center;
 }
-#main>ul:first-of-type {
+#firstULmain {
     list-style: none;
     padding-left: 0;
 }

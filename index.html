@@ -4,11 +4,14 @@
     <title>Страховой агент Елена Иванова</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
-</head>
-<body>
-<div>
-    <!--Шапка-->
-    <div id="header">
+    <!--[if IE]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    </head>
+    <body>
+    <div>
+        <!--Шапка-->
+    <header>
         <div>
             <img src="img/tel2.png">
             <span>950-30-90</span>
@@ -21,73 +24,71 @@
             <img src="img/mail.png">
             <a href="mailto:ivanova-elev@yandex.ru">ivanova-elev@yandex.ru</a>
         </div>
-        <img src="img/reso_logo.png">
-        <div>
+        <img id="reso" src="img/reso_logo.png">
+        <div id="headtext">
             <p>Ваш личный страховой агент</p>
-            <p>Иванова Елена Евгеньевна</p>
+            <p id="name">Иванова Елена Евгеньевна</p>
         </div>
-        
-    </div>
+    </header>
 
-    <div id="menu-wrapper">
-        <nav>
-            <ul class="menu">
-                <li><a href="">Автострахование</a>
-                    <ul>
-                        <li><a href="">КАСКО</a></li>
-                        <li><a href="">ОСАГО</a></li>
-                        <li><a href="">ДСАГО</a></li>
-                        <li><a href="">Зелёная карта</a></li>
-                    </ul>
-                </li>
-                <li><a href="">Медицина</a>
-                    <ul>
-                        <li><a href="">Страхование жизни</a></li>
-                        <li><a href="">ДМС</a></li>
-                        <li><a href="">Несчастный случай</a></li>
-                    </ul>
-                </li>
-                <li><a href="">Имущество</a>
-                    <ul>
-                        <li><a href="">Квартира</a></li>
-                        <li><a href="">Дом</a></li>
-                        <li><a href="">Ипотека</a></li>
+    <nav>
+        <ul class="menu">
+            <li><a id="firstli" href="">Автострахование</a>
+                <ul>
+                    <li><a href="">КАСКО</a></li>
+                    <li><a href="">ОСАГО</a></li>
+                    <li><a href="">ДСАГО</a></li>
+                    <li><a href="">Зелёная карта</a></li>
+                </ul>
+            </li>
+            <li><a href="">Медицина</a>
+                <ul>
+                    <li><a href="">Страхование жизни</a></li>
+                    <li><a href="">ДМС</a></li>
+                    <li><a href="">Несчастный случай</a></li>
+                </ul>
+            </li>
+            <li><a href="">Имущество</a>
+                <ul>
+                    <li><a href="">Квартира</a></li>
+                    <li><a href="">Дом</a></li>
+                    <li><a href="">Ипотека</a></li>
 
-                    </ul>
-                </li>
-                <li><a href="">Путешествия</a>
-                    <ul>
-                        <li><a href="">Страхование туристов</a></li>
-                        <li><a href="">Зелёная карта</a></li>
-                    </ul>
-                </li>
-                <li><a href="">Другие виды</a>
-                    <ul>
-                        <li><a href="">Пенсионное страхование</a></li>
-                        <li><a href="">Животные</a></li>
-                        <li><a href="">Яхты, катера</a></li>
-                    </ul>
-                <li><a href="">Для бизнеса</a>
-                    <ul>
-                        <li><a href="">Страхование строительно-монтажных работ</a></li>
-                        <li><a href="">Страхование гражданской ответственности при СМР</a></li>
-                        <li><a href="">Страхование грузов, строительной техники,
-                            имущества юридических лиц,
-                            железнодорожного транспорта,
-                            товаров и оборудования.</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </nav>
-    </div>
+                </ul>
+            </li>
+            <li><a href="">Путешествия</a>
+                <ul>
+                    <li><a href="">Страхование туристов</a></li>
+                    <li><a href="">Зелёная карта</a></li>
+                </ul>
+            </li>
+            <li><a href="">Другие виды</a>
+                <ul>
+                    <li><a href="">Пенсионное страхование</a></li>
+                    <li><a href="">Животные</a></li>
+                    <li><a href="">Яхты, катера</a></li>
+                </ul>
+            <li><a id="lastli" href="">Для бизнеса</a>
+                <ul>
+                    <li><a href="">Страхование строительно-монтажных работ</a></li>
+                    <li><a href="">Страхование гражданской ответственности при СМР</a></li>
+                    <li><a href="">Страхование грузов, строительной техники,
+                        имущества юридических лиц,
+                        железнодорожного транспорта,
+                        товаров и оборудования.</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
 
     <div id="main">
-        <h2>Уважаемые дамы и господа!
+        <h2 id="firsth2">Уважаемые дамы и господа!
             <br>
         Добро пожаловать!</h2>
         <h3>Мы делаем все возможное, чтобы  оформление любого страхового полиса  было для Вас удобным, выгодным, простым и быстрым.        </h3>
         <h2>На нашем сайте  Вы сможете:</h2>
-        <ul>
+        <ul id="firstULmain">
             <li>— Заказать расчет стоимости любого интересующего Вас полиса страхования (ОСАГО, КАСКО, Green Card, полиса страхования жизни, медицинского страхования, страхования имущества, и многих других видов страхования)</li>
             <li>— Оставить заявку на оформление страховки  (как новой, так и продление существующего полиса)</li>
             <li>— Заказать бесплатную доставку страхового полиса в любой район города в любое удобное для Вас время.            </li>
@@ -127,7 +128,7 @@
 
     <div id="rightBlocks">
         <div>
-            <a href="https://docs.google.com/forms/d/1hi1de74aXJEKIycjfhRB56pZ7_NoEjskRcwvzt2wMAI/viewform?pli=1" target="_blank">Заказать расчёт стоимости страховки</a>
+            <a href="https://docs.google.com/forms/d/1-6vJyw_fp1D6xNp-4HPjmz_6jbqlU6ydq6UdMQXeffM/viewform" target="_blank">Заказать расчёт стоимости страховки</a>
         </div>
     </div>
 
