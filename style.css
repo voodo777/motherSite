@@ -33,30 +33,29 @@ header img {
 }
 header>div {
     display: inline-block;
-    margin-left: 40px;
+    margin-left: 20px;
 }
 header>div>img {
     height: 18px;
     margin-bottom: 4px;
 }
-header>div>a {
+header div>a {
     color: black;
     text-decoration: none;
 }
-#reso {
-    width: 300px;
-    float: right;
-    margin-top: 50px;
-}
+header div>a:hover, header div>span:hover  {color: red;}
 #headtext {
-    width: 400px;
+    width: 740px;
     text-align: center;
-    font-size: 21pt;
+    font-size: 28pt;
     font-weight: bold;
-    margin-top: 55px;
+    margin: 60px 0 60px 40px;
 }
 #headtext>p {margin: 0;}
-#name{font-size: 20pt;}
+#name{
+    font-size: 24pt;
+    font-weight: normal;
+}
 
 
 
@@ -127,21 +126,40 @@ nav ul li:hover > ul{display: block;}
 
 
 
-#main {
+
+
+/*Область основного контента*/
+main {
     float: left;
     width: 64%;
     margin-left: 20px;
 }
-#main>p:first-of-type {
-    margin-top: 0;
+h2 {
+    color: #38761d;
+    font-size: 16pt;
+    font-weight: bolder;
 }
+#firsth2 {text-align: center;margin-top: 0;}
+.ULmain {
+    list-style: none;
+    padding-left: 0;
+}
+.ULmain>li>ul  {list-style: none}
+.ULmain>li span {
+    color: #38761d;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+
+
+
 
 #rightBlocks {
     float: right;
     width: 30%;
     margin-right: 20px;
 }
-
 #rightBlocks>div {
     border: 1px solid lightgray;
     margin-bottom: 20px;
@@ -155,42 +173,16 @@ nav ul li:hover > ul{display: block;}
     color: #036734;
     font-weight: bold;
     display: block;
-    padding: 30px 10px;
+    padding: 20px 10px;
 }
-#rightBlocks>div:hover {background: #036734;}
+#rightBlocks>div a:hover {background: #036734;}
 #rightBlocks>div a:hover{color: white;}
-
-
-
-
-
-
-
-/*Область основного контента*/
-h2 {
-    color: #38761d;
-    font-size: 16pt;
-    font-weight: bolder;
+#reso {
+    width: 100%;
+    display: block;
 }
-#firsth2 {text-align: center;margin: 0;}
-h3 {
-    font-size: 14pt;
-    text-align: center;
-}
-#firstULmain {
-    list-style: none;
-    padding-left: 0;
-}
-#main>ul>li>ul  {
-    list-style: none;
-    padding-left: 0;
-}
-#main>ul>li>ul span {
-    color: #38761d;
-    text-decoration: underline;
-    font-weight: bold;
-}
-#main>ul>li>ul>li>ul {list-style: none;}
+
+
 
 
 
