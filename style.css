@@ -43,10 +43,15 @@ body>div {
     color: black;
     text-decoration: none;
 }
+#header>img:last-of-type {
+    width: 300px;
+    float: right;
+    margin-top: 50px;
+}
 #header>div:last-of-type {
-    width: 700px;
+    width: 400px;
     text-align: center;
-    font-size: 32pt;
+    font-size: 21pt;
     font-weight: bold;
     margin-top: 55px;
 }
@@ -137,18 +142,23 @@ nav ul li:hover > ul{display: block;}
     margin-right: 20px;
 }
 
-.infoblock {
+#rightBlocks>div {
     border: 1px solid lightgray;
     margin-bottom: 20px;
-    padding: 5px 10px;
     -webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;
-    /*-webkit-box-shadow: 0 0 5px 0 rgba(50, 50, 50, 0.5);
-    -moz-box-shadow:    0 0 5px 0 rgba(50, 50, 50, 0.5);
-    box-shadow:         0 0 5px 0 rgba(50, 50, 50, 0.5);*/
+    text-align: center;
+    font-size: 18pt;
+    background-color: #eaffdb;
 }
-.infoblock:hover {
-    background: #f6f6f6;
+#rightBlocks>div a {
+    text-decoration: none;
+    color: #036734;
+    font-weight: bold;
+    display: block;
+    padding: 30px 10px;
 }
+#rightBlocks>div:hover {background: #036734;}
+#rightBlocks>div a:hover{color: white;}
 
 #podvalBorder {
     /*border: 3px dotted #47c520;*/
@@ -193,6 +203,8 @@ h3 {
     font-weight: bold;
 }
 #main>ul>li>ul>li>ul {list-style: none;}
+
+
 
 
 /*Подвал*/
