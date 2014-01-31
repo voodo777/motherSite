@@ -197,3 +197,8 @@ h2 {
     color: white;
 }
 #cellar a {color: white}
+#cellar img {
+    display: block;
+    float: right;
+    margin-top: 4px;
+}
