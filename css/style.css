@@ -1,0 +1,204 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Trebuchet MS, sans-serif;
+    z-index: 5;
+    position: static;
+    background: url("/images/background_my.jpg") #e5f5d7 center top no-repeat;
+    font-size: 12pt;
+}
+body>div {
+    width: 920px;
+    margin: 10px auto;
+    -webkit-box-shadow: 0 0 7px 0 rgba(50, 50, 50, 0.5);
+    -moz-box-shadow:    0 0 7px 0 rgba(50, 50, 50, 0.5);
+    box-shadow:         0 0 7px 0 rgba(50, 50, 50, 0.5);
+    -webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;
+    background-color: white;
+}
+.clear {clear: both;}
+
+/*Шапка*/
+header {
+    background: url("/images/back_header.jpg") #aeeb83 center center no-repeat;
+    height: 232px;
+    font-size: 16pt;
+    text-align: right;
+    padding: 10px;
+}
+header>span {font-size: 13pt}
+header img {
+    vertical-align: bottom;
+    max-width: 100%;
+    position: relative;
+}
+header>div {
+    display: inline-block;
+    margin-left: 20px;
+}
+header>div>img {
+    height: 18px;
+    margin-bottom: 4px;
+}
+header div>a {
+    color: black;
+    text-decoration: none;
+}
+header div>a:hover, header div>span:hover  {color: red;}
+#headtext {
+    width: 740px;
+    text-align: center;
+    font-size: 28pt;
+    font-weight: bold;
+    margin: 40px 0 55px 40px;
+}
+#headtext>p {margin: 0;}
+#name{
+    font-size: 24pt;
+    font-weight: normal;
+}
+
+
+
+
+/*Меню*/
+nav {
+    text-align: center;
+    margin-bottom: 20px;
+    background: #3d3d3d;
+    border: 1px solid #3d3d3d;
+    padding: 10px 0;
+}
+nav ul.menu {
+    list-style: none;
+    display: inline-table;
+    padding: 0;
+    margin: 0;
+}
+nav>ul>li {
+    display: inline-block;
+    position: relative;
+}
+nav>ul>li>a {
+    padding: 10px 20px;
+    position: relative;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    border-left: 1px solid #7b7b7b;
+    border-right: 1px solid #191919;
+    }
+#firstli {border-left: none;}
+#lastli {border-right: none}
+nav>ul>li>a:hover {
+    background-color: #5b5a5a;
+    border-bottom: 1px solid #7b7b7b;
+}
+nav ul ul {
+    display: none;
+    list-style: none;
+    position: absolute;
+    top: 33px;
+    padding: 0;
+}
+nav ul ul li {
+    margin-left: 20px;
+}
+nav ul ul li>a {
+    text-align: left;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #3d3d3d;
+    color: white;
+    display: block;
+    margin: 0;
+    border-top: 1px solid #7b7b7b;
+    border-bottom: 1px solid #191919;
+    -webkit-box-shadow: 4px 4px 5px 0 rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    4px 4px 5px 0 rgba(50, 50, 50, 0.75);
+    box-shadow:         4px 4px 5px 0 rgba(50, 50, 50, 0.75);
+}
+nav ul ul li:last-of-type>a {
+    border-bottom: none;
+    -webkit-border-bottom-right-radius:3px;-webkit-border-bottom-left-radius:3px;-moz-border-radius-bottomright:3px;-moz-border-radius-bottomleft:3px;border-bottom-right-radius:3px;border-bottom-left-radius:3px;
+}
+nav ul ul li>a:hover {background-color: #5b5a5a;}
+nav ul li:hover > ul{display: block;}
+
+
+
+
+
+/*Область основного контента*/
+main {
+    float: left;
+    width: 64%;
+    margin-left: 20px;
+}
+h2 {
+    color: #38761d;
+    font-size: 16pt;
+    font-weight: bolder;
+}
+#firsth2 {text-align: center;margin-top: 0;}
+.ULmain {
+    list-style: none;
+    padding-left: 0;
+}
+.ULmain>li>ul  {list-style: none}
+.ULmain>li span {
+    color: #38761d;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+
+
+
+
+#rightBlocks {
+    float: right;
+    width: 30%;
+    margin-right: 20px;
+}
+#rightBlocks>div {
+    border: 1px solid lightgray;
+    margin-bottom: 20px;
+    -webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;
+    text-align: center;
+    font-size: 22pt;
+    background-color: #eaffdb;
+}
+#rightBlocks>div a {
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    padding: 20px 10px;
+    background-color: #bcdd44;
+    color: black;
+}
+#rightBlocks>div a:hover {background: #036734;}
+#rightBlocks>div a:hover{color: white;}
+#reso {
+    width: 100%;
+    display: block;
+}
+
+
+
+
+/*Подвал*/
+#cellar {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 10pt;
+    padding: 10px;
+    background-color: #3d3d3d;
+    color: white;
+}
+#cellar a {color: white}
+#cellar img {
+    display: block;
+    float: right;
+    margin-top: 4px;
+}
