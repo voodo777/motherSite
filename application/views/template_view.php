@@ -36,9 +36,9 @@
                 <li><a id="firstli" href="/">Главная</a>
                 <li><span>Автострахование</span>
                     <ul>
-                        <li><a href="">КАСКО</a></li>
-                        <li><a href="">ОСАГО</a></li>
-                        <li><a href="">ДГО</a></li>
+                        <li><a href="/kasko">КАСКО</a></li>
+                        <li><a href="/osago">ОСАГО</a></li>
+                        <li><a href="/dgo">ДГО</a></li>
                         <li><a href="/greencard">Зелёная карта</a></li>
                     </ul>
                 </li>
