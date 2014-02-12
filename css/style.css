@@ -79,8 +79,8 @@ nav>ul>li {
     display: inline-block;
     position: relative;
 }
-nav>ul>li>a {
-    padding: 10px 20px;
+nav>ul>li>span, nav>ul>li>a {
+    padding: 10px 16px;
     position: relative;
     text-decoration: none;
     font-weight: bold;
@@ -88,11 +88,13 @@ nav>ul>li>a {
     border-left: 1px solid #7b7b7b;
     border-right: 1px solid #191919;
     }
+nav>ul>li>a {text-decoration: underline;}
 #firstli {border-left: none;}
 #lastli {border-right: none}
-nav>ul>li>a:hover {
+nav>ul>li>span:hover, nav>ul>li>a:hover {
     background-color: #5b5a5a;
     border-bottom: 1px solid #7b7b7b;
+    cursor: pointer;
 }
 nav ul ul {
     display: none;
@@ -135,12 +137,18 @@ main {
     width: 64%;
     margin-left: 20px;
 }
-h2 {
+h2, h3 {
     color: #38761d;
-    font-size: 16pt;
     font-weight: bolder;
 }
-#firsth2 {text-align: center;margin-top: 0;}
+h2 {font-size: 16pt;}
+h3 {font-size: 14pt;margin-bottom: 5px;}
+p {margin-top: 0;}
+#firsth21, #firsth22 {margin-top: 0;}
+#firsth21 {text-align: center;}
+.greenb, .greenbu {color: #38761d;font-weight: bolder;}
+.greenbu {text-decoration: underline;}
+.redbu {color: #980000; font-weight: bolder; text-decoration: underline;}
 .ULmain {
     list-style: none;
     padding-left: 0;
@@ -151,6 +159,15 @@ h2 {
     text-decoration: underline;
     font-weight: bold;
 }
+.ULtire {list-style: none; padding-left: 10px;margin-top: 5px;}
+.ULtire>li::before {content: ' — ';}
+table {text-align: center; margin-bottom: 5px;border-spacing: 0; border-collapse: collapse;}
+table td {width: 40px;font-size: 10pt;}
+td, th {border: 1px solid;}
+table td.firsttd {padding-left: 5px;text-align: left;width: 330px;font-size: 12pt;}
+tr.mnt {font-size: 10pt;}
+th {background-color: #e5f5d7;}
+
 
 
 

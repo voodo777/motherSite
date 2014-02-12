@@ -33,7 +33,8 @@
         </header>
         <nav>
             <ul class="menu">
-                <li><a id="firstli" href="">Автострахование</a>
+                <li><a id="firstli" href="/">Главная</a>
+                <li><span>Автострахование</span>
                     <ul>
                         <li><a href="">КАСКО</a></li>
                         <li><a href="">ОСАГО</a></li>
@@ -41,14 +42,14 @@
                         <li><a href="/greencard">Зелёная карта</a></li>
                     </ul>
                 </li>
-                <li><a href="">Медицина</a>
+                <li><span>Медицина</span>
                     <ul>
                         <li><a href="">Страхование жизни</a></li>
                         <li><a href="">ДМС</a></li>
                         <li><a href="">Несчастный случай</a></li>
                     </ul>
                 </li>
-                <li><a href="">Имущество</a>
+                <li><span>Имущество</span>
                     <ul>
                         <li><a href="">Квартира</a></li>
                         <li><a href="">Дом</a></li>
@@ -56,19 +57,19 @@
 
                     </ul>
                 </li>
-                <li><a href="">Путешествия</a>
+                <li><span href="">Путешествия</span>
                     <ul>
                         <li><a href="">Страхование туристов</a></li>
                         <li><a href="">Зелёная карта</a></li>
                     </ul>
                 </li>
-                <li><a href="">Другие виды</a>
+                <li><span href="">Другие виды</span>
                     <ul>
                         <li><a href="">Пенсионное страхование</a></li>
                         <li><a href="">Животные</a></li>
                         <li><a href="">Яхты, катера</a></li>
                     </ul>
-                <li><a id="lastli" href="">Для бизнеса</a>
+                <li><span id="lastli" href="">Для бизнеса</span>
                     <ul>
                         <li><a href="">Страхование строительно-монтажных работ</a></li>
                         <li><a href="">Страхование гражданской ответственности при СМР</a></li>
@@ -81,6 +82,10 @@
             </ul>
         </nav>
 
+     <!--   <?php
+        var_dump($data);
+        echo $_SERVER['REQUEST_URI'];
+        ?>-->
 
         <main>
             <?php include 'application/views/'.$content_view; ?>
