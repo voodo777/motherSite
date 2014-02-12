@@ -109,9 +109,9 @@
         <!--Подвал-->
         <div id="cellar">
             <!-- Yandex.Metrika informer -->
-            <a href="http://metrika.yandex.ru/stat/?id=23813188&amp;from=informer"
-               target="_blank" rel="nofollow"><img src="//bs.yandex.ru/informer/23813188/3_0_FFFFFBFF_EAFFDBFF_0_pageviews"
-                                                   style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика" title="Яндекс.Метрика: данные за сегодня (просмотры, визиты и уникальные посетители)" onclick="try{Ya.Metrika.informer({i:this,id:23813188,lang:'ru'});return false}catch(e){}"/></a>
+            <a href="http://metrika.yandex.ru/stat/?id=23752144&amp;from=informer"
+               target="_blank" rel="nofollow"><img src="//bs.yandex.ru/informer/23752144/3_0_FFFFF7FF_E5F5D7FF_0_pageviews"
+                                                   style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика" title="Яндекс.Метрика: данные за сегодня (просмотры, визиты и уникальные посетители)" onclick="try{Ya.Metrika.informer({i:this,id:23752144,lang:'ru'});return false}catch(e){}"/></a>
             <!-- /Yandex.Metrika informer -->
 
             <!-- Yandex.Metrika counter -->
@@ -119,7 +119,7 @@
                 (function (d, w, c) {
                     (w[c] = w[c] || []).push(function() {
                         try {
-                            w.yaCounter23813188 = new Ya.Metrika({id:23813188,
+                            w.yaCounter23752144 = new Ya.Metrika({id:23752144,
                                 webvisor:true,
                                 clickmap:true,
                                 trackLinks:true,
@@ -139,7 +139,7 @@
                     } else { f(); }
                 })(document, window, "yandex_metrika_callbacks");
             </script>
-            <noscript><div><img src="//mc.yandex.ru/watch/23813188" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+            <noscript><div><img src="//mc.yandex.ru/watch/23752144" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
             <!-- /Yandex.Metrika counter -->
             <span>Данный сайт носит исключительно информационный характер и не является публичной офертой, ст. 437 ГК РФ.</span>
             <br>
