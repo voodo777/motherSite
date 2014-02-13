@@ -136,16 +136,16 @@ main {
     width: 64%;
     margin-left: 20px;
 }
-h2, h3 {
-    color: #38761d;
+h1, h2, h3 {
+    color: #274e13;
     font-weight: bolder;
 }
-h2 {font-size: 16pt;}
+h1, h2 {font-size: 16pt;}
 h3 {font-size: 14pt;margin-bottom: 5px;}
 p {margin-top: 0;}
 #firsth21, #firsth22 {margin-top: 0;}
 #firsth21 {text-align: center;}
-.greenb, .greenbu {color: #38761d;font-weight: bolder;}
+.greenb, .greenbu {color: #274e13;font-weight: bolder;}
 .greenbu {text-decoration: underline;}
 .redbu {color: #980000; font-weight: bolder; text-decoration: underline;}
 .ULmain {
