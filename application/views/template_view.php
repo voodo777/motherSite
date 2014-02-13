@@ -28,7 +28,7 @@
             </div>
             <div>
                 <img src="/images/mail.png">
-                <a href="mailto:ivanova@strahov-net.ru">ivanova-elev@yandex.ru</a>
+                <a href="mailto:ivanova@strahov-net.ru">ivanova@strahov-net.ru</a>
             </div>
             <a id="dummy" href="/"></a>
         </header>
