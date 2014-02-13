@@ -82,19 +82,12 @@
             </ul>
         </nav>
 
-     <!--   <?php
-        var_dump($data);
-        echo $_SERVER['REQUEST_URI'];
-        ?>-->
-
         <main>
             <?php include 'application/views/'.$content_view; ?>
         </main>
 
         <div id="rightBlocks">
-            <div>
-                <a href="https://docs.google.com/forms/d/1-6vJyw_fp1D6xNp-4HPjmz_6jbqlU6ydq6UdMQXeffM/viewform" target="_blank">Заказать страховой полис</a>
-            </div>
+            <?php include 'rightFirstButton.php'; select(); ?><!--Загрузка кнопки в правом блоке в зависимости от текущего месторасположения-->
             <div>
                 <img id="reso" src="/images/reso_logo.png">
             </div>
