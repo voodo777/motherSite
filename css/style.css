@@ -88,8 +88,7 @@ nav>ul>li>span, nav>ul>li>a {
     border-left: 1px solid #7b7b7b;
     border-right: 1px solid #191919;
     }
-nav>ul>li>a {text-decoration: underline;}
-#firstli {border-left: none;}
+#firstli {border-left: none;text-decoration: underline;}
 #lastli {border-right: none}
 nav>ul>li>span:hover, nav>ul>li>a:hover {
     background-color: #5b5a5a;

@@ -1,9 +1,9 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-    <title><?php echo $data['title']?></title>
+    <title><?php include 'title.php'; Title::select(); ?></title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/css/style.css">
     <!--[if IE]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -19,27 +19,27 @@
                 <p id="name">Иванова Елена</p>
             </div>
             <div>
-                <img src="images/tel2.png">
+                <img src="/images/tel2.png">
                 <span>+7(812)950 30 90</span>
             </div>
             <div>
-                <img src="images/tel1.png">
+                <img src="/images/tel1.png">
                 <span>+7(911)767 00 17</span>
             </div>
             <div>
-                <img src="images/mail.png">
+                <img src="/images/mail.png">
                 <a href="mailto:ivanova-elev@yandex.ru">ivanova-elev@yandex.ru</a>
             </div>
         </header>
         <nav>
             <ul class="menu">
                 <li><a id="firstli" href="/">Главная</a>
-                <li><span>Автострахование</span>
+                <li><a href="/avtostrahovanie">Автострахование</a>
                     <ul>
-                        <li><a href="/kasko">КАСКО</a></li>
-                        <li><a href="/osago">ОСАГО</a></li>
-                        <li><a href="/dgo">ДГО</a></li>
-                        <li><a href="/greencard">Зелёная карта</a></li>
+                        <li><a href="/avtostrahovanie/kasko">КАСКО</a></li>
+                        <li><a href="/avtostrahovanie/osago">ОСАГО</a></li>
+                        <li><a href="/avtostrahovanie/dgo">ДГО</a></li>
+                        <li><a href="/avtostrahovanie/greencard">Зелёная карта</a></li>
                     </ul>
                 </li>
                 <li><span>Медицина</span>
@@ -96,7 +96,7 @@
                 <a href="https://docs.google.com/forms/d/1-6vJyw_fp1D6xNp-4HPjmz_6jbqlU6ydq6UdMQXeffM/viewform" target="_blank">Заказать страховой полис</a>
             </div>
             <div>
-                <img id="reso" src="images/reso_logo.png">
+                <img id="reso" src="/images/reso_logo.png">
             </div>
             <div id="vk_groups"></div>
             <script type="text/javascript">
