@@ -30,6 +30,7 @@
                 <img src="/images/mail.png">
                 <a href="mailto:ivanova-elev@yandex.ru">ivanova-elev@yandex.ru</a>
             </div>
+            <a id="dummy" href="/"></a>
         </header>
         <nav>
             <ul class="menu">
