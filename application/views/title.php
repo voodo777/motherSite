@@ -49,6 +49,15 @@
                         case 'greencard':
                             $action_name = 'Зелёная карта';
                             break;
+                        case 'kvartira':
+                            $action_name = 'Квартира';
+                            break;
+                        case 'dom':
+                            $action_name = 'Дом, Дача';
+                            break;
+                        case 'ipoteka':
+                            $action_name = 'Ипотека';
+                            break;
                     }
                     $title = $action_name .' | '. $controller_name;
                 }

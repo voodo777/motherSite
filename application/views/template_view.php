@@ -50,11 +50,11 @@
                         <li><a href="">Несчастный случай</a></li>
                     </ul>
                 </li>
-                <li><span>Имущество</span>
+                <li><a href="/imushestvo">Имущество</a>
                     <ul>
-                        <li><a href="">Квартира</a></li>
-                        <li><a href="">Дом</a></li>
-                        <li><a href="">Ипотека</a></li>
+                        <li><a href="/imushestvo/kvartira">Квартира</a></li>
+                        <li><a href="/imushestvo/dom">Дом, Дача</a></li>
+                        <li><a href="/imushestvo/ipoteka">Ипотека</a></li>
 
                     </ul>
                 </li>
