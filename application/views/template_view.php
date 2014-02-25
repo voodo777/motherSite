@@ -4,6 +4,8 @@
     <title><?php include 'title.php'; Title::select(); ?></title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="apple-touch-icon" href="/apple-touch-favicon.png"/>
     <!--[if IE]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -43,11 +45,11 @@
                         <li><a href="/avtostrahovanie/greencard">Зелёная карта</a></li>
                     </ul>
                 </li>
-                <li><span>Медицина</span>
+                <li><a href="/medicina">Медицина</a></span>
                     <ul>
-                        <li><a href="">Страхование жизни</a></li>
-                        <li><a href="">ДМС</a></li>
-                        <li><a href="">Несчастный случай</a></li>
+                        <li><a href="/medicina/zhizn">Страхование жизни</a></li>
+                        <li><a href="/medicina/dms">ДМС</a></li>
+                        <li><a href="/medicina/travma">Несчастный случай</a></li>
                     </ul>
                 </li>
                 <li><a href="/imushestvo">Имущество</a>

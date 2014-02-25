@@ -58,6 +58,21 @@
                         case 'ipoteka':
                             $action_name = 'Ипотека';
                             break;
+                        case 'zhizn':
+                            $action_name = 'Страхование жизни';
+                            break;
+                        case 'dms':
+                            $action_name = 'ДМС';
+                            break;
+                        case 'travma':
+                            $action_name = 'Несчастный случай';
+                            break;
+                        case 'turist':
+                            $action_name = 'Страхование туристов';
+                            break;
+                        case 'greencards':
+                            $action_name = 'Зелёная карта';
+                            break;
                     }
                     $title = $action_name .' | '. $controller_name;
                 }
