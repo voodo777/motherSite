@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-    <title><?php include 'title.php'; Title::select(); ?></title>
+    <title><?php include 'application/views/title.php';?></title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="/css/style.css">
     <link rel="icon" type="image/png" href="/favicon.png" />
@@ -36,8 +36,7 @@
         </header>
         <nav>
             <ul class="menu">
-                <li><a id="firstli" href="/">Главная</a>
-                <li><a href="/avtostrahovanie">Автострахование</a>
+                <li><a id="firstli" href="/avtostrahovanie">Автострахование</a>
                     <ul>
                         <li><a href="/avtostrahovanie/kasko">КАСКО</a></li>
                         <li><a href="/avtostrahovanie/osago">ОСАГО</a></li>
@@ -86,6 +85,9 @@
         </nav>
 
         <main>
+            <div class="breadcrumbs">
+                <?php include 'application/views/breadcrumbs.php'; ?>
+            </div>
             <?php include 'application/views/'.$content_view; ?>
         </main>
 

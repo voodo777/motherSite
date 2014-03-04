@@ -11,6 +11,7 @@
         extract($data);
         }
         */
+        include 'application/views/names.php';
         include 'application/views/'.$template_view;
         }
     }

@@ -64,7 +64,7 @@ header div>a:hover, header div>span:hover  {color: red;}
 /*Меню*/
 nav {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     background: #3d3d3d;
     border: 1px solid #3d3d3d;
     padding: 10px 0;
@@ -80,7 +80,7 @@ nav>ul>li {
     position: relative;
 }
 nav>ul>li>span, nav>ul>li>a {
-    padding: 10px 16px;
+    padding: 10px 25px;
     position: relative;
     text-decoration: none;
     font-weight: bold;
@@ -88,7 +88,7 @@ nav>ul>li>span, nav>ul>li>a {
     border-left: 1px solid #7b7b7b;
     border-right: 1px solid #191919;
     }
-#firstli {border-left: none;text-decoration: underline;}
+#firstli {border-left: none;}
 #lastli {border-right: none}
 nav>ul>li>span:hover, nav>ul>li>a:hover {
     background-color: #5b5a5a;
@@ -131,6 +131,12 @@ nav ul li:hover > ul{display: block;}
 
 
 /*Область основного контента*/
+.breadcrumbs {
+    font-size: 10pt;
+    color: #7f7f7f;
+}
+.breadcrumbs a {color: #739f60;}
+
 main {
     float: left;
     width: 64%;
@@ -187,7 +193,7 @@ th {background-color: #e5f5d7;}
 }
 #rightBlocks>div {
     border: 1px solid lightgray;
-    margin-bottom: 20px;
+    margin: 20px 0;
     -webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;
     text-align: center;
     font-size: 22pt;
