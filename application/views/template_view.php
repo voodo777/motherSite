@@ -59,10 +59,10 @@
 
                     </ul>
                 </li>
-                <li><span href="">Путешествия</span>
+                <li><a href="/puteshestviya">Путешествия</a>
                     <ul>
-                        <li><a href="">Страхование туристов</a></li>
-                        <li><a href="">Зелёная карта</a></li>
+                        <li><a href="/puteshestviya/turist">Страхование туристов</a></li>
+                        <li><a href="/puteshestviya/greencards">Зелёная карта</a></li>
                     </ul>
                 </li>
                 <li><span href="">Другие виды</span>
